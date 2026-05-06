@@ -22,9 +22,6 @@ pip install git+https://github.com/stuart-lane/lambdaFRD.git#subdirectory=Python
 ```
 Alternatively, simply download the functions, save them in to the appropriate directory and directly work with the functions themselves.
 
-### Replication
-Replication code for the empirical application is available in both R and python. Currently, replication code for simulations is only available in R.
-
 ## ⚠️ Development Status
 
 Current version: 0.1.0 (pre-release)

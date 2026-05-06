@@ -3,7 +3,7 @@ The `LambdaFRD` functions provide facilities for lambda class estimation and inf
 
 Lane (2025). The moment is here: a generalised class of estimators for fuzzy regression discontinuity designs. Working paper. https://arxiv.org/abs/2511.03424
 
-Please note that this repo is just for the implementation code. Replication code for the paper can be found in my other repo https://github.com/stuart-lane/LaneLambdaFRD-Replication.
+Please note that this repo is just for the code for estimator and confidence interval implementation. Replication code for the paper can be found in my other repo https://github.com/stuart-lane/LaneLambdaFRD-Replication.
 
 ## Installation and use
 

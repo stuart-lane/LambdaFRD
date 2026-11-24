@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lambdafrd"
+version = "1.0.0"
+description = "Lambda-Class Estimation and Inference in Fuzzy Regression Discontinuity Designs"
+readme = "README.md"
+authors = [{ name = "Stuart Lane", email = "stuart.lane@bristol.ac.uk" }]
+license = "GPL-2.0-or-later"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.8",
+]
+keywords = ["regression discontinuity", "fuzzy RD", "instrumental variables", "econometrics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "rdrobust"]
+
+[project.urls]
+Source = "https://github.com/stuart-lane/LambdaFRD"
+
+[tool.setuptools]
+packages = ["lambdafrd"]
+
+[tool.setuptools.package-data]
+lambdafrd = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

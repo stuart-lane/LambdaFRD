@@ -1,0 +1,15 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Scratch notes
+R/check_and_delete.txt

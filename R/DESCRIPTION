@@ -1,0 +1,23 @@
+Package: LambdaFRD
+Type: Package
+Title: Lambda-Class Estimation and Inference in Fuzzy Regression Discontinuity Designs
+Version: 1.0.0
+Authors@R: person("Stuart", "Lane", email = "stuart.lane@bristol.ac.uk",
+                  role = c("aut", "cre"))
+Description: Estimates the FRD effect at the cutoff with a lambda-class
+estimator and provides robust bias-corrected confidence intervals. 
+This estimator class has finite moments up to the order
+of the error distribution, and is shown to have good estimator and 
+inference properties in Lane (2025). lambda = 1 is the conventional
+FRD estimator. As in rdrobust, a single call returns the conventional
+estimate with its standard error and the bias-corrected estimate with 
+its robust standard error and confidence interval. Consult "The moment is
+here: a generalized class of estimators for fuzzy regression discontinuity
+designs" Lane (2025) for more details.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats
+Suggests: rdrobust, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3
